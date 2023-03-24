@@ -114,7 +114,6 @@ $(function(){
       pay_price:$('#final_price').attr('data-pricenum'),
       pay_content:$('#ticket_name').attr('data-ticketname'),
       ticket_num:$('#ticket_num').attr('data-ticketnum'),
-      locker_num:$('#pay_kakao').attr('data-lockernum'),
       pay_plan:1,
 	  check_useP:1,
       point_point : -useP.value
@@ -123,7 +122,6 @@ $(function(){
       pay_price:$('#final_price').attr('data-pricenum'),
       pay_content:$('#ticket_name').attr('data-ticketname'),
       ticket_num:$('#ticket_num').attr('data-ticketnum'),
-      locker_num:$('#pay_kakao').attr('data-lockernum'),
       pay_plan:1,
 	  check_useP:0,
       point_point : pprice * 0.05
@@ -206,7 +204,6 @@ $(function(){
 			      pay_price:$('#final_price').attr('data-pricenum'),
 			      pay_content:$('#ticket_name').attr('data-ticketname'),
 			      ticket_num:$('#ticket_num').attr('data-ticketnum'),
-			      locker_num:$('#pay_kakao').attr('data-lockernum'),
 			      pay_plan:2,
 				  check_useP:1,
 			      point_point : -useP.value
@@ -215,7 +212,6 @@ $(function(){
 			      pay_price:$('#final_price').attr('data-pricenum'),
 			      pay_content:$('#ticket_name').attr('data-ticketname'),
 			      ticket_num:$('#ticket_num').attr('data-ticketnum'),
-			      locker_num:$('#pay_kakao').attr('data-lockernum'),
 			      pay_plan:2,
 				  check_useP:0,
 			      point_point : pprice * 0.05
